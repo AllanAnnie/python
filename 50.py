@@ -1,0 +1,6 @@
+s =set(['John','Mary','Tina','Fiona','Clairc','Eva','Ben','Bill','bert'])
+e =set(['John','Mary','Fiona','Clairc','Ben','Bill'])
+m =set(['Mary','Fiona','Clairc','Eva','Ben'])
+print('英文數學都及格',e & m )
+print('數學不及格',s - m)
+print('英文及格且數學不及格',e - m)
